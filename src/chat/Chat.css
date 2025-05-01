@@ -1,0 +1,73 @@
+.chat-window{
+    height: 80vh;
+    padding: 10px;
+    margin: 10vh 0 10vh;
+    background-image: url(https://i.pinimg.com/originals/ab/ab/60/abab60f06ab52fa7846593e6ae0c9a0b.png);
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    max-width: 728px;
+}
+form{
+    height: 10vh;
+    position:fixed ;
+    bottom: 0;
+    background-color: rgb(24,23,23);
+    width: 100%;
+    max-width: 728px;
+    font-size: 1.5rem;
+    display: flex;
+}
+form button{
+    width: 20%;
+    background-color: rgb(56,56,143);
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form button img{
+    width: 38px;
+    height: 42px;
+}
+form input{
+    line-height: 1.5;
+    width: 100%;
+    font-size: 1.5rem;
+    background-color: rgb(58,58,58 );
+    color: white;
+    outline: 0;
+    border: none;
+    padding: 10px;
+}
+.message{
+    display: flex;
+    align-items: center;
+}
+.message img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 2px 5px;
+}
+.message p{
+    max-width: 500px;
+    margin-bottom: 12px;
+    line-height: 24px;
+    padding: 10px 20px;
+    color: rgb(200, 51, 51);
+}
+.sent{
+    flex-direction: row-reverse;
+
+}
+.sent p{
+    color: white;
+    background-color:rgb(17, 63, 81) ;
+    align-self: flex-end;
+}
+.received p{
+    background-color: rgb(62, 198, 198);
+    color: black;
+}

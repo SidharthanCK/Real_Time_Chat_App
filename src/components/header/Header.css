@@ -1,0 +1,27 @@
+
+
+   header {
+    background: linear-gradient(-45deg, #4481eb 0%, #04befe 100%);
+    height: 10vh;
+    min-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    top: 0;
+    width: 100%;
+    max-width: 728px;
+  }
+  
+  /* Constrain image size */
+  header img {
+    height: 70%; /* or use a fixed height like 30px */
+    max-height: 40px;
+    object-fit: contain;
+  }
+  .logo{
+    border-radius: 50%;
+  }
+  .signOut_button{
+    cursor: pointer;
+  }
